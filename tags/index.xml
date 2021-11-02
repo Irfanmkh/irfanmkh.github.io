@@ -7,34 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate><atom:link href="https://fifirex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>plot</title>
-      <link>https://fifirex.github.io/tags/plot/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://fifirex.github.io/tags/plot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://fifirex.github.io/tags/r-markdown/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://fifirex.github.io/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>regression</title>
-      <link>https://fifirex.github.io/tags/regression/</link>
-      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
-      
-      <guid>https://fifirex.github.io/tags/regression/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 24 Dec 2018 12:29:41 +0800</lastBuildDate><atom:link href="https://fifirex.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demo</title>
       <link>https://fifirex.github.io/tags/demo/</link>
@@ -95,6 +68,24 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://fifirex.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://fifirex.github.io/tags/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fifirex.github.io/tags/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://fifirex.github.io/tags/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://fifirex.github.io/tags/themes/</guid>
       <description></description>
     </item>
     
