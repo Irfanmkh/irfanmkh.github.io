@@ -23,7 +23,7 @@ git push origin main
 printf "\033[0;32mDeployment complete.\033[0m\n"
 printf "\033[0;32mWe are ready for liftoff.\033[0m\n"
 
-# Yes.
+# If you have the time, why not?
 if [ "$1" = "time" ]; then
 	echo ""
 	echo ""
