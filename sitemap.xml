@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fifirex.github.io/posts/2020-12-01-r-rmarkdown/</loc>
-    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+    <loc>https://fifirex.github.io/about/</loc>
+    <lastmod>2021-04-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://fifirex.github.io/</loc>
+    <loc>https://fifirex.github.io/posts/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://fifirex.github.io/tags/plot/</loc>
@@ -21,6 +21,9 @@
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://fifirex.github.io/tags/</loc>
+    <lastmod>2020-12-01T21:13:14-05:00</lastmod>
+  </url><url>
+    <loc>https://fifirex.github.io/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
     <loc>https://fifirex.github.io/tags/demo/</loc>
@@ -43,9 +46,6 @@
   </url><url>
     <loc>https://fifirex.github.io/posts/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://fifirex.github.io/about-hugo/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://fifirex.github.io/posts/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
