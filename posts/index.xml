@@ -11,10 +11,10 @@
 		
 		<item>
 			<title>CAN HAS BLOG?</title>
-			<link>https://fifirex.github.io/posts/esoteric/</link>
+			<link>https://fifirex.github.io/posts/brainfuck/</link>
 			<pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
 			
-			<guid>https://fifirex.github.io/posts/esoteric/</guid>
+			<guid>https://fifirex.github.io/posts/brainfuck/</guid>
 			<description>Just like any other 1 am, I am going around GitHub trying to find some fun repos when I come across this and then, this:
 HelloWorld(dot)bf -[-------&amp;gt;+&amp;lt;]&amp;gt;-.-[-&amp;gt;+++++&amp;lt;]&amp;gt;++.+++++++..+++.[---&amp;gt;+&amp;lt;]&amp;gt;-----.---[-&amp;gt;+++&amp;lt;]&amp;gt;.-[---&amp;gt;+&amp;lt;]&amp;gt;---.+++.------.--------.It was labelled &amp;ldquo;Brainfuck&amp;rdquo;. This has to be a joke, right?
 Nah.
@@ -46,7 +46,7 @@ IM IN YR LOOP
     IZ VAR BIGGER THAN 10? KTHX
 IM OUTTA YR LOOP
 KTHXBYE
-</code></pre><p><img src="/images/lol-cat.gif" alt="cat"></p>
+</code></pre><p><img src="/static/brainfuck/lol-cat.gif" alt="cat"></p>
 <h3 id="whitespace">Whitespace</h3>
 <p><em>Good &lsquo;ol invisible ink</em></p>
 <p>Just when I thought nothing could top &ldquo;I HAS A VAR&rdquo;, I met <a href="https://en.wikipedia.org/wiki/Whitespace_(programming_language)">Whitesapce</a> which is written only with, well, whitespaces. All non-whitespace characters are ignored. So here is your <code>HelloWorld.ws</code></p>
@@ -95,7 +95,7 @@ KTHXBYE
 <p><em>The truly articstic code</em></p>
 <p>Programs written in Piet are bitmaps. The compilation is guided by a &ldquo;pointer&rdquo; that moves around the image, from one continuous coloured region to the next. Procedures are carried through when the pointer exits a region.</p>
 <p>Here is a &ldquo;Hello World&rdquo; program in Piet:</p>
-<p><img src="/images/piet.gif" alt="art"></p>
+<p><img src="/static/brainfuck/piet.gif" alt="art"></p>
 <hr>
 <h2 id="why-tho">Why tho?</h2>
 <p>Justification if I were the author:</p>

@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fifirex.github.io/tags/casual/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CAN HAS BLOG?</title>
-      <link>https://fifirex.github.io/posts/esoteric/</link>
+      <link>https://fifirex.github.io/posts/brainfuck/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://fifirex.github.io/posts/esoteric/</guid>
+      <guid>https://fifirex.github.io/posts/brainfuck/</guid>
       <description>Just like any other 1 am, I am going around GitHub trying to find some fun repos when I come across this and then, this:
 HelloWorld(dot)bf -[-------&amp;gt;+&amp;lt;]&amp;gt;-.-[-&amp;gt;+++++&amp;lt;]&amp;gt;++.+++++++..+++.[---&amp;gt;+&amp;lt;]&amp;gt;-----.---[-&amp;gt;+++&amp;lt;]&amp;gt;.-[---&amp;gt;+&amp;lt;]&amp;gt;---.+++.------.--------.It was labelled &amp;ldquo;Brainfuck&amp;rdquo;. This has to be a joke, right?
 Nah.
