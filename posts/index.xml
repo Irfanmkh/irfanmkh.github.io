@@ -10,13 +10,20 @@
 		<atom:link href="https://fifirex.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>404</title>
-			<link>https://fifirex.github.io/posts/404/</link>
+			<title>./deploy.sh</title>
+			<link>https://fifirex.github.io/posts/deploy-sh/</link>
 			<pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
 			
-			<guid>https://fifirex.github.io/posts/404/</guid>
-			<description>Hi. I procrastinate a lot This site is under development. Help.</description>
-			<content type="html"><![CDATA[<p>Hi. <del>I procrastinate a lot</del> This site is under development. Help.</p>
+			<guid>https://fifirex.github.io/posts/deploy-sh/</guid>
+			<description>Heya!
+Finally got down to making the site. I chose the Hermit theme for obvious aesthetic reasons. The site is hosted on Hugo because all the cool kids are using it.
+This site was made as a R project (yes) and the comments were enabled by utteranc. I went with utteranc because, well, its Open source. And my seniors Parth Paradkar and Mukul Mehta use it (they are extremely cool 😎).</description>
+			<content type="html"><![CDATA[<p>Heya!</p>
+<p>Finally got down to making the site. I chose the <a href="%22https://github.com/Track3/hermit%22">Hermit</a> theme for obvious aesthetic reasons. The site is hosted on <a href="https://gohugo.io/">Hugo</a> because all the cool kids are using it.</p>
+<p>This site was made as a R project (yes) and the comments were enabled by <a href="https://utteranc.es/">utteranc</a>. I went with utteranc because, well, its Open source. And my seniors <a href="https://parth-paradkar.me/">Parth Paradkar</a> and <a href="https://mukul-mehta.in/">Mukul Mehta</a> use it (they are extremely cool 😎).</p>
+<p>I will probably be writing about something cool I am doing (which is rare) or just about some <!-- raw HTML omitted -->profound thought<!-- raw HTML omitted --> that hit me (not that rare).</p>
+<p>So. Yeah. Here we are.</p>
+<p><em>Now what? XD</em></p>
 ]]></content>
 		</item>
 		
