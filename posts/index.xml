@@ -6,8 +6,108 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Wed, 03 Nov 2021 00:00:00 +0000</lastBuildDate>
+		<lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
 		<atom:link href="https://fifirex.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>CAN HAS BLOG?</title>
+			<link>https://fifirex.github.io/posts/esoteric/</link>
+			<pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+			
+			<guid>https://fifirex.github.io/posts/esoteric/</guid>
+			<description>Just like any other 1 am, I am going around GitHub trying to find some fun repos when I come across this and then, this:
+HelloWorld(dot)bf -[-------&amp;gt;+&amp;lt;]&amp;gt;-.-[-&amp;gt;+++++&amp;lt;]&amp;gt;++.+++++++..+++.[---&amp;gt;+&amp;lt;]&amp;gt;-----.---[-&amp;gt;+++&amp;lt;]&amp;gt;.-[---&amp;gt;+&amp;lt;]&amp;gt;---.+++.------.--------.It was labelled &amp;ldquo;Brainfuck&amp;rdquo;. This has to be a joke, right?
+Nah.
+I had just discovered a programming language whose script just seems to be random keystrokes by a toddler.
+Only if I could forget about this and fall asleep.
+ A whole new world A quick Google search told me that the language was created as an attempt to write the smallest possible compiler for a language on the Amiga OS v2.</description>
+			<content type="html"><![CDATA[<p>Just like any other 1 am, I am going around GitHub trying to find some fun repos when I come across <a href="https://github.com/leachim6/hello-world">this</a> and then, <strong>this</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Brainfuck" data-lang="Brainfuck"><span class="c">HelloWorld(dot)bf
+</span><span class="c"></span><span class="nb">-</span><span class="k">[</span><span class="nb">-------</span><span class="nv">&gt;</span><span class="nb">+</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">-</span><span class="nt">.</span><span class="nb">-</span><span class="k">[</span><span class="nb">-</span><span class="nv">&gt;</span><span class="nb">+++++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">++</span><span class="nt">.</span><span class="nb">+++++++</span><span class="nt">..</span><span class="nb">+++</span><span class="nt">.</span><span class="k">[</span><span class="nb">---</span><span class="nv">&gt;</span><span class="nb">+</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">-----</span><span class="nt">.</span><span class="nb">---</span><span class="k">[</span><span class="nb">-</span><span class="nv">&gt;</span><span class="nb">+++</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nt">.</span><span class="nb">-</span><span class="k">[</span><span class="nb">---</span><span class="nv">&gt;</span><span class="nb">+</span><span class="nv">&lt;</span><span class="k">]</span><span class="nv">&gt;</span><span class="nb">---</span><span class="nt">.</span><span class="nb">+++</span><span class="nt">.</span><span class="nb">------</span><span class="nt">.</span><span class="nb">--------</span><span class="nt">.</span><span class="c">
+</span></code></pre></div><p>It was labelled &ldquo;Brainfuck&rdquo;. This has to be a joke, right?</p>
+<p>Nah.</p>
+<p>I had just discovered a programming language whose script just seems to be random keystrokes by a toddler.</p>
+<p>Only if I could forget about this and fall asleep.</p>
+<hr>
+<h2 id="a-whole-new-world">A whole new world</h2>
+<p>A quick Google search told me that the language was created as an attempt to write the smallest possible compiler for a language on the Amiga OS v2.0</p>
+<p><em>Only if I could forget about this and fall asleep.</em></p>
+<h3 id="lolcode">LOLCODE</h3>
+<p><em>Meow</em></p>
+<p>Looking for more &ldquo;Brainfuck&rdquo; material yielded this <a href="https://en.wikipedia.org/wiki/Esoteric_programming_language">Wikipedia article</a>. This article was probably the best thing that happened to me this week because after the Brainfuck, I was told that <a href="http://www.lolcode.org/">LOLCODE</a> exists:</p>
+<pre tabindex="0"><code class="language-LOLCODE" data-lang="LOLCODE">BTW this is a comment
+
+HAI 1.0
+CAN HAS STDIO?
+I HAS A VAR
+IM IN YR LOOP
+    UP VAR!!1
+    VISIBLE VAR
+    IZ VAR BIGGER THAN 10? KTHX
+IM OUTTA YR LOOP
+KTHXBYE
+</code></pre><p><img src="/images/lol-cat.gif" alt="cat"></p>
+<h3 id="whitespace">Whitespace</h3>
+<p><em>Good &lsquo;ol invisible ink</em></p>
+<p>Just when I thought nothing could top &ldquo;I HAS A VAR&rdquo;, I met <a href="https://en.wikipedia.org/wiki/Whitespace_(programming_language)">Whitesapce</a> which is written only with, well, whitespaces. All non-whitespace characters are ignored. So here is your <code>HelloWorld.ws</code></p>
+<pre tabindex="0"><code class="language-Whitespace" data-lang="Whitespace">   	      	 
+   			 		   		  	 
+    
+		    	  	   
+	
+     		  	 	
+	
+     		 		  
+ 
+ 	
+  	
+     		 				
+	
+     	     
+	
+     	 	 			
+	
+     		 				
+	
+     			  	 
+	
+     		 		  
+	
+     		  	  
+	
+     	    	
+	
+     	 	 
+	
+   
+
+
+
+
+
+</code></pre><h3 id="befunge">Befunge</h3>
+<p><em>The multi dimensional Brainfuck</em></p>
+<p>There were some seriously &ldquo;amazing&rdquo; languages too like <a href="https://catseye.tc/article/Languages.md#befunge-93">Befunge</a> which allows the instruction pointer to roam in multiple dimensions through the code.</p>
+<p>This snippet displays &ldquo;Hello World&rdquo; by pushing the characters in reverse order onto the stack, then printing the characters in a loop which circulates clockwise through the instructions <code>&gt;</code>, <code>:</code>, <code>v</code>, <code>_</code>, <code>,</code>, and <code>^</code>.</p>
+<pre tabindex="0"><code class="language-Befunge" data-lang="Befunge"> &quot;dlroW olleH&quot;&gt;:v
+              ^,_@
+</code></pre><h3 id="piet">Piet</h3>
+<p><em>The truly articstic code</em></p>
+<p>Programs written in Piet are bitmaps. The compilation is guided by a &ldquo;pointer&rdquo; that moves around the image, from one continuous coloured region to the next. Procedures are carried through when the pointer exits a region.</p>
+<p>Here is a &ldquo;Hello World&rdquo; program in Piet:</p>
+<p><img src="/images/piet.gif" alt="art"></p>
+<hr>
+<h2 id="why-tho">Why tho?</h2>
+<p>Justification if I were the author:</p>
+<ol>
+<li>Why not?</li>
+<li>&hellip;</li>
+</ol>
+<p>I have this wierd glint in my eyes, just going through all my projects and imagining them written in Brainfuck. That&rsquo;d be a cruel world.</p>
+<hr>
+<pre tabindex="0"><code>KTHXBYE
+</code></pre>]]></content>
+		</item>
 		
 		<item>
 			<title>./deploy.sh</title>

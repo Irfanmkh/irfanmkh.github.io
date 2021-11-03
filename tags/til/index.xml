@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>casual on Yash Saraswat</title>
-    <link>https://fifirex.github.io/tags/casual/</link>
-    <description>Recent content in casual on Yash Saraswat</description>
+    <title>TIL on Yash Saraswat</title>
+    <link>https://fifirex.github.io/tags/til/</link>
+    <description>Recent content in TIL on Yash Saraswat</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fifirex.github.io/tags/casual/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fifirex.github.io/tags/til/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CAN HAS BLOG?</title>
       <link>https://fifirex.github.io/posts/esoteric/</link>
@@ -20,17 +20,6 @@ Nah.
 I had just discovered a programming language whose script just seems to be random keystrokes by a toddler.
 Only if I could forget about this and fall asleep.
  A whole new world A quick Google search told me that the language was created as an attempt to write the smallest possible compiler for a language on the Amiga OS v2.</description>
-    </item>
-    
-    <item>
-      <title>./deploy.sh</title>
-      <link>https://fifirex.github.io/posts/deploy-sh/</link>
-      <pubDate>Wed, 03 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://fifirex.github.io/posts/deploy-sh/</guid>
-      <description>Heya!
-Finally got down to making the site. I chose the Hermit theme for obvious aesthetic reasons. The site is hosted on Hugo because all the cool kids are using it.
-This site was made as a R project (yes) and the comments were enabled by utteranc. I went with utteranc because, well, its Open source. And my seniors Parth Paradkar and Mukul Mehta use it (they are extremely cool 😎).</description>
     </item>
     
   </channel>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>something-new on Yash Saraswat</title>
+    <link>https://fifirex.github.io/tags/something-new/</link>
+    <description>Recent content in something-new on Yash Saraswat</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://fifirex.github.io/tags/something-new/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esoteric programming language</title>
+      <link>https://fifirex.github.io/posts/esoteric/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://fifirex.github.io/posts/esoteric/</guid>
+      <description>Just like any other 1 am, I am going around GitHub trying to find some fun repos when I came across this and more importantly, this:
+-[-------&amp;gt;+&amp;lt;]&amp;gt;-.-[-&amp;gt;+++++&amp;lt;]&amp;gt;++.+++++++..+++.[---&amp;gt;+&amp;lt;]&amp;gt;-----.---[-&amp;gt;+++&amp;lt;]&amp;gt;.-[---&amp;gt;+&amp;lt;]&amp;gt;---.+++.------.--------.Brainfuck.bf </description>
+    </item>
+    
+  </channel>
+</rss>
