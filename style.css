@@ -9,7 +9,15 @@ body {
 .nav-item {
     font-family: 'Baloo 2',
         cursive;
+    margin: auto;
 }
+
+.navbar-toggler {
+    margin: auto;
+}
+
+
+
 
 
 
