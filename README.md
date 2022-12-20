@@ -6,3 +6,7 @@ Made with [Hugo](https://gohugo.io/) and [Hermit](https://github.com/Track3/herm
 All I have to do now is get to write something on it. That should be easy, right?
 
 _Right?_
+
+---
+
+Offline files for this were lost. Archiving repo.
