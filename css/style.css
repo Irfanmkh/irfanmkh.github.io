@@ -133,7 +133,7 @@ body[theme=light] {
                 font-size: 13px;
             }
 	 .intro-text{
-		 font-size: 7px;
+		 font-size: 13px;
 	 }
 			@keyframes showup {
     0% {opacity:0;}
