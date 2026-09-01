@@ -83,9 +83,8 @@ const WorkExperienceCard = ({
 
         return (
           <CardWrapper
-            className={`card shadow-md card-sm bg-base-100 ${
-              exp.link ? 'cursor-pointer' : ''
-            }`}
+            className={`card shadow-md card-sm bg-base-100 ${exp.link ? 'cursor-pointer' : ''
+              }`}
             key={index}
             href={exp.link}
             target={exp.link ? '_blank' : undefined}
@@ -135,9 +134,51 @@ const WorkExperienceCard = ({
                       </p>
 
                       {/* Deskripsi Pekerjaan */}
-                      <p className="mt-3 text-base-content text-sm leading-relaxed">
-                        {exp.description}
-                      </p>
+                      {/* Mini Timeline / Storytelling Flow */}
+                      {exp.phases ? (
+                        <div className="mt-5 space-y-4 border-l-2 border-primary/20 pl-4 ml-1">
+                          {exp.phases.map((phase, pIndex) => (
+                            <div key={pIndex} className="relative group">
+                              {/* Bullet Dot Timeline */}
+                              <div className="absolute -left-[21px] top-1.5 w-2.5 h-2.5 rounded-full bg-primary/70 ring-4 ring-base-100 group-hover:scale-125 transition-transform" />
+
+                              <div className="flex flex-wrap items-center gap-2">
+                                <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded bg-primary/10 text-primary border border-primary/20">
+                                  {phase.tag}
+                                </span>
+                                <h4 className="text-sm font-semibold text-base-content/90">
+                                  {phase.title}
+                                </h4>
+                              </div>
+
+                              <p className="mt-1 text-xs sm:text-sm text-base-content/70 leading-relaxed text-left">
+                                {phase.desc}
+                              </p>
+
+                              {/* Live Demo Link Button (Khusus Fase Automasi) */}
+                              {phase.liveLink && (
+                                <div className="mt-2">
+                                  <a
+                                    href={phase.liveLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center gap-1.5 text-xs font-medium text-primary hover:underline hover:opacity-80 transition-opacity bg-base-300/60 px-2.5 py-1 rounded-md"
+                                    onClick={(e) => e.stopPropagation()}
+                                  >
+                                    <span></span>
+                                    <span>{phase.liveLabel || 'Live Demo'}</span>
+                                    <span className="text-[10px]">↗</span>
+                                  </a>
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="mt-3 text-base-content text-sm leading-relaxed whitespace-pre-line text-left">
+                          {exp.description}
+                        </p>
+                      )}
 
                       {/* Tech Stack / Skills Badges */}
                       {exp.skills && exp.skills.length > 0 && (
@@ -196,7 +237,7 @@ const WorkExperienceCard = ({
                 <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                   {loading
                     ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                    : 'Riwayat Karir & Profesional'}
+                    : 'Riwayat Karir Profesional'}
                 </div>
               </div>
             </div>
