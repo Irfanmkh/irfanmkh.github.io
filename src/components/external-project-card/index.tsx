@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
-import { MdOpenInNew, MdOutlineArrowOutward } from 'react-icons/md';
+import { MdOutlineArrowOutward } from 'react-icons/md';
 import { PiCheckCircleFill, PiRocketLaunch } from 'react-icons/pi';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
