@@ -346,6 +346,7 @@ interface Config {
    * Experience list
    */
   experiences?: Array<Experience>;
+  workexperiences?: Array<WorkExperience>;
 
   /**
    * Certifications list

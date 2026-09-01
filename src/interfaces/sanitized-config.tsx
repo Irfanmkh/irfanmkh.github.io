@@ -64,7 +64,16 @@ export interface SanitizedSocial {
   email?: string;
   discord?: string;
 }
-
+export interface SanitizedWorkExperience {
+  company: string;
+  position: string;
+  startDate: string; // contoh: '2022-01-01' atau 'Jan 2022'
+  endDate?: string; // opsional, jika kosong dianggap "Present" / "Sekarang"
+  description: string;
+  logo: string; // URL gambar/logo perusahaan
+  skills: string[]; // Kategori/tech stack (e.g. ['React', 'TypeScript'])
+  link?: string; // URL situs perusahaan (opsional)
+}
 export interface SanitizedResume {
   fileUrl?: string;
 }
@@ -138,6 +147,7 @@ export interface SanitizedConfig {
   googleAnalytics: SanitizedGoogleAnalytics;
   hotjar: SanitizedHotjar;
   blog: SanitizedBlog;
+  workexperiences: Array<SanitizedWorkExperience>;
   themeConfig: SanitizedThemeConfig;
   footer?: string;
   enablePWA: boolean;

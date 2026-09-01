@@ -95,6 +95,14 @@ export const getSanitizedConfig = (
             experience.from ||
             experience.to,
         ) || [],
+      workexperiences:
+        config?.workexperiences?.filter(
+          (workexperience) =>
+            workexperience.company ||
+            workexperience.position ||
+            workexperience.startDate ||
+            workexperience.description,
+        ) || [],
       certifications:
         config?.certifications?.filter(
           (certification) =>

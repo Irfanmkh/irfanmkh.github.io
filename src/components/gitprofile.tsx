@@ -24,9 +24,10 @@ import CertificationCard from './certification-card';
 import { GithubProject } from '../interfaces/github-project';
 import GithubProjectCard from './github-project-card';
 import ExternalProjectCard from './external-project-card';
-import BlogCard from './blog-card';
+// import BlogCard from './blog-card';
 import Footer from './footer';
 import PublicationCard from './publication-card';
+import WorkExperienceCard from './work-card';
 
 /**
  * Formats the GitHub rate limit reset time for display.
@@ -265,6 +266,22 @@ const GitProfileContent = ({
               </div>
               <div className="lg:col-span-2 col-span-1">
                 <div className="grid grid-cols-1 gap-6">
+                  {/* {sanitizedConfig.blog.display && (
+                    <BlogCard
+                      loading={loading}
+                      googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                      blog={sanitizedConfig.blog}
+                    />
+                  )} */}
+                  {/* WorkExperienceCard Ditambahkan sebagai Section Baru */}
+                  {sanitizedConfig.workexperiences &&
+                    sanitizedConfig.workexperiences.length !== 0 && (
+                      <WorkExperienceCard
+                        loading={loading}
+                        workexperiences={sanitizedConfig.workexperiences}
+                        googleAnalyticsId={sanitizedConfig.googleAnalytics?.id}
+                      />
+                    )}
                   {sanitizedConfig.projects.github.display && (
                     <GithubProjectCard
                       header={sanitizedConfig.projects.github.header}
@@ -288,13 +305,6 @@ const GitProfileContent = ({
                         sanitizedConfig.projects.external.projects
                       }
                       googleAnalyticId={sanitizedConfig.googleAnalytics.id}
-                    />
-                  )}
-                  {sanitizedConfig.blog.display && (
-                    <BlogCard
-                      loading={loading}
-                      googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
-                      blog={sanitizedConfig.blog}
                     />
                   )}
                 </div>
