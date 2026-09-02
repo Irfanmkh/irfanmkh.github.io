@@ -47,9 +47,13 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               }`}
             >
               <LazyImage
-                src="https://res.cloudinary.com/utjjtmte/image/upload/v1788321710/PAS_FOTO_IRFAN_MAULANA_KHAKIKI.jpg"
+                src="https://res.cloudinary.com/utjjtmte/image/upload/v1788321710/PAS_FOTO_IRFAN_MAULANA_KHAKIKI.jpg" 
                 alt={profile.name}
                 className="w-full h-full object-cover object-[center_20%]"
+                onError={(e) => {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = FALLBACK_IMAGE;
+                }}
                 placeholder={skeleton({
                   widthCls: 'w-full',
                   heightCls: 'h-full',
