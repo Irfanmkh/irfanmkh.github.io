@@ -132,7 +132,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1QWgWVr5e3oHM4gxh5u9eCRAQnuib4juV/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1sFnEYkI1Ho7GFQrWjybt2UrKKG6CySql/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -254,7 +254,7 @@ const CONFIG = {
     {
       logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW_HLwWVdKdbW9qimN8-L-85EDzoRXuMXF_eD6TP3J0A&s',
       company: 'GM Rain Group',
-      position: 'Admin IT & Marketing',
+      position: 'IT Support',
       startDate: 'Agu 2023',
       endDate: 'Nov 2023',
       phases: [
