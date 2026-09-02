@@ -1,4 +1,3 @@
-// import { FALLBACK_IMAGE } from '../../constants';
 import { Profile } from '../../interfaces/profile';
 import { skeleton } from '../../utils';
 import LazyImage from '../lazy-image';
@@ -47,10 +46,10 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               }`}
             >
               <LazyImage
-                src="https://res.cloudinary.com/utjjtmte/image/upload/v1788321710/PAS_FOTO_IRFAN_MAULANA_KHAKIKI.jpg" 
+                src="https://res.cloudinary.com/utjjtmte/image/upload/v1788321710/PAS_FOTO_IRFAN_MAULANA_KHAKIKI.jpg"
                 alt={profile.name}
                 className="w-full h-full object-cover object-[center_20%]"
-                
+
                 placeholder={skeleton({
                   widthCls: 'w-full',
                   heightCls: 'h-full',
