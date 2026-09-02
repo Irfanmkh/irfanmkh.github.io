@@ -37,7 +37,7 @@ const CONFIG = {
           category: 'SaaS Platform Development',
           period: 'Mei 2026 - Present',
           imageUrl:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/59212419/644357519-0ddea7f7-1973-44f8-9d68-c98b095f2593.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T134043Z&X-Amz-Expires=300&X-Amz-Signature=d0b2542f1f624cce7c1b5394b1eb90fc4c72a160c5a5252d39cb65528e187b0f&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng',
+            'https://res.cloudinary.com/utjjtmte/image/upload/v1788314229/fullpage_snapshot_kisahmu_com_2026-09-02-01-56-08.png',
           description:
             'Platform SaaS pembuatan undangan pernikahan online dengan konsep (DIY) yang memungkinkan kustomisasi tema visual secara instan dan mandiri.',
           highlights: [
@@ -59,23 +59,38 @@ const CONFIG = {
           category: 'Company Profile & CMS Development',
           period: 'Mar 2025 - Mei 2025',
           imageUrl:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/59212419/644355616-e9e56d4c-b409-4b1c-ae91-9bc59ad10cdf.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T133654Z&X-Amz-Expires=300&X-Amz-Signature=5754c2843f3d0b9ee3d4d8e3ef0195f0ba231e55ef6dfda92ea8d82e16d870bb&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng',
+            'https://res.cloudinary.com/utjjtmte/image/upload/v1788314230/fullpage_snapshot_stidkiarrahmah_ac_id_2026-09-02-01-55-24.png',
           description:
             'Website profil kampus dan perancangan sistem manajemen konten (CMS) internal untuk menunjang publikasi informasi akademik secara terpusat.',
           highlights: [
             'Merancang arsitektur database relasional & core logic backend Laravel',
-            'Implementasi Filament Admin Panel & Livewire untuk dasbor admin yang intuitif',
+            'Implementasi Filament Admin Panel & Livewire untuk dashboard admin yang user-friendly',
             'Kolaborasi tim via GitHub (Forking, Pull Request, & Code Review flow)',
           ],
           skills: ['Laravel', 'Filament', 'Livewire', 'MySQL', 'GitHub'],
           link: 'https://www.stidkiarrahmah.ac.id',
         },
         {
+          title: 'Rebuild Web Viona',
+          category: 'E-Commerce Company Profile',
+          period: 'July 2026',
+          imageUrl:
+            'https://res.cloudinary.com/utjjtmte/image/upload/v1788314230/fullpage_snapshot_viona_imaka_my_id_2026-09-02-01-55-05.png',
+          description:
+            'Melakukan perancangan ulang (rebuild) website company profile menjadi platform e-commerce interaktif yang mendukung transaksi langsung di dalam web.',
+          highlights: [
+            'Mengembangkan alur transaksi end-to-end mulai dari Card Produk, Detail Produk, keranjang belanja (cart), halaman checkout, hingga pembuatan invoice otomatis',
+            'Redesain antarmuka web menggunakan Tailwind CSS untuk pengalaman pengguna yang lebih baik',
+          ],
+          skills: ['Laravel', 'Blade', 'MySQL', 'Tailwind CSS', 'GitHub'],
+          link: 'https://www.viona.imaka.my.id',
+        },
+        {
           title: 'E-Commerce SKU & Price Reconciliation Tool',
           category: 'Data Audit & Automation Tools',
           period: '',
           imageUrl:
-            'https://github-production-user-asset-6210df.s3.amazonaws.com/59212419/644359019-e54df833-b42e-4fcd-816d-6eb46f583a1c.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260901%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260901T134224Z&X-Amz-Expires=300&X-Amz-Signature=847e81a878efb44761f284c250233ad553391b1431c1629fda0bb629c5fbdda5&X-Amz-SignedHeaders=host&response-content-type=image%2Fpng',
+            'https://res.cloudinary.com/utjjtmte/image/upload/v1788314229/fullpage_snapshot_audit-irfan_streamlit_app_2026-09-02-01-55-51.png',
           description:
             'Web automasi audit data untuk merekonsiliasi stok dan harga ribuan SKU secara instan antara database internal dengan marketplace yang tidak terintegrasi.',
           highlights: [
@@ -116,7 +131,8 @@ const CONFIG = {
     email: 'irfankhakiki17@gmail.com',
   },
   resume: {
-    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl:
+      'https://drive.google.com/file/d/1QWgWVr5e3oHM4gxh5u9eCRAQnuib4juV/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -127,11 +143,12 @@ const CONFIG = {
     'MySQL',
     'Docker',
     'Git',
+    'IT Support',
     'Jubelio Omnichannel',
     'Shopify',
+    'Marketplace Seller Center',
     'Advanced Excel',
     'Streamlit',
-    'IT Support',
   ],
   experiences: [
     {
