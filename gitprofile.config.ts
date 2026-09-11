@@ -213,7 +213,7 @@ const CONFIG = {
     {
       logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4dKK-Zn-SZmUe5gZ4__O2Kw8CDzQP3tK11h5ITWrYB7xKJZarFQtVRCvL&s=10',
       company: 'CV Carolina Unggul Persada',
-      position: 'E-Commerce & Web Operations Specialist',
+      position: 'E-Commerce & Web Operations',
       startDate: 'Des 2023',
       endDate: 'Present',
       phases: [
