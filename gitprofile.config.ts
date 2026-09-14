@@ -342,7 +342,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `© 2026 <a class="text-primary" href="https://github.com/irfanmkh" target="_blank" rel="noreferrer">Irfan Maulana Khakiki</a> • Powered by <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">GitProfile</a>`,
+  footer: `© 2026 <a class="text-primary" href="https://github.com/irfanmkh" target="_blank" rel="noreferrer">Irfan Maulana Khakiki</a> • Forked from <a class="text-primary" href="https://github.com/arifszn/gitprofile" target="_blank" rel="noreferrer">arifszn</a>`,
   enablePWA: true,
 };
 
