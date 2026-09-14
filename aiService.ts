@@ -1,8 +1,8 @@
 import { GoogleGenAI } from '@google/genai';
-// Impor file config portofolio Anda sebagai "Single Source of Truth"
+// import config file
 import CONFIG from './gitprofile.config';
 
-// Inisialisasi klien Gemini menggunakan Environment Variable
+// Inisialisasi gemini
 const ai = new GoogleGenAI({
   apiKey: import.meta.env.VITE_GEMINI_API_KEY || '',
 });
@@ -10,7 +10,7 @@ const ai = new GoogleGenAI({
 function askLocalAssistant(question: string): string {
   const query = question.toLowerCase();
 
-  // Sapaan / Intro sesuai permintaan Anda
+  // intro
   if (query.match(/hi|halo|pagi|siang|sore|malam|pundek|siapa kamu|asisten/)) {
     return 'Halo! Selamat datang di web portofolio Irfan Maulana Khakiki. Saya adalah asisten virtual milik Irfan yang siap membantu Anda mengenal lebih jauh mengenai profil profesional Irfan.';
   }
@@ -101,16 +101,16 @@ export async function askPortfolioAssistant(
 
     if (isRateLimit) {
       console.warn(
-        '⚠️ API Gemini terkena limit (429). Dialihkan otomatis ke asisten lokal.',
+        ' API terkena limit (429). Dialihkan otomatis ke asisten lokal.',
       );
     } else {
       console.warn(
-        '⚠️ Terkendala koneksi AI, menggunakan sistem cadangan lokal:',
+        ' Terkendala koneksi AI, menggunakan sistem cadangan lokal:',
         error?.message,
       );
     }
 
-    // Eksekusi fallback lokal secara mulus tanpa membuat user tahu ada error
+    // Eksekusi fallback lokal 
     return askLocalAssistant(userQuestion);
   }
 }
