@@ -110,7 +110,7 @@ export async function askPortfolioAssistant(
       );
     }
 
-    // Eksekusi fallback lokal 
+    // Eksekusi fallback lokal
     return askLocalAssistant(userQuestion);
   }
 }

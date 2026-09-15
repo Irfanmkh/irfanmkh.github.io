@@ -1,5 +1,5 @@
 {
-  "name": "@arifszn/gitprofile",
+  "name": "@irfanmkh forked from @arifszn/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
   "version": "4.0.0",
   "type": "module",
@@ -14,7 +14,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc --build && vite build",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint . --fix --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
