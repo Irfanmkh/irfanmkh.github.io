@@ -37,7 +37,7 @@ const CONFIG = {
           category: 'SaaS Platform Development',
           period: 'Mei 2026 - Present',
           imageUrl:
-            'https://res.cloudinary.com/utjjtmte/image/upload/v1788314229/fullpage_snapshot_kisahmu_com_2026-09-02-01-56-08.png',
+            'https://res.cloudinary.com/utjjtmte/image/upload/v1789615138/fullpage_snapshot_kisahmu_com_2026-09-17-03-16-54.png',
           description:
             'Platform SaaS pembuatan undangan pernikahan online dengan konsep (DIY) yang memungkinkan kustomisasi tema visual secara instan dan mandiri.',
           highlights: [
