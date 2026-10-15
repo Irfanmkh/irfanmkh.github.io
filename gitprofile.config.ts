@@ -83,7 +83,7 @@ const CONFIG = {
             'Redesain antarmuka web menggunakan Tailwind CSS untuk pengalaman pengguna yang lebih baik',
           ],
           skills: ['Laravel', 'Blade', 'MySQL', 'Tailwind CSS', 'GitHub'],
-          link: 'https://www.viona.imaka.my.id',
+          link: 'https://www.viona.irfanmkh.my.id',
         },
         {
           title: 'E-Commerce SKU & Price Reconciliation Tool',
@@ -126,7 +126,7 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.imaka.my.id',
+    website: 'https://www.irfanmkh.my.id',
     phone: '',
     email: 'irfankhakiki17@gmail.com',
   },
