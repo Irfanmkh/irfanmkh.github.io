@@ -230,7 +230,7 @@ const CONFIG = {
         {
           tag: 'Phase 3: Automation',
           title: 'Building the Solution',
-          desc: '•	Merancang tools otomasi berbasis Python untuk memonitor lebih dari 5.000 SKU, yang secara signifikan memangkas waktu kerja dalam mendeteksi selisih stok, harga, dan inkonsistensi data antara sistem internal dan marketplace. ',
+          desc: 'Merancang tools otomasi berbasis Python untuk memonitor lebih dari 5.000 SKU, yang secara signifikan memangkas waktu kerja dalam mendeteksi selisih stok, harga, dan inkonsistensi data antara sistem internal dan marketplace. ',
           liveLink: 'https://audit-irfan.streamlit.app/',
           liveLabel: 'Demo Tools',
         },
