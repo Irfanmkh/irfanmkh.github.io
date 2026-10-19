@@ -105,7 +105,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Irfan Maulana Khakiki',
-    description: 'E-Commerce Operations & Web Operations',
+    description: 'Shopify & Marketplace Operations | Data Automation | Web Developer',
     imageURL: '',
   },
   social: {
@@ -153,7 +153,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'CV Carolina Unggul Persada',
-      position: 'E-Commerce & Web Operations',
+      position: 'Shopify & Marketplace Operations',
       from: 'Desember 2023',
       to: 'Sekarang',
       companyLink: 'https://carolinawatch.id',
@@ -230,7 +230,7 @@ const CONFIG = {
         {
           tag: 'Phase 3: Automation',
           title: 'Building the Solution',
-          desc: 'Mengembangkan automasi Python untuk audit konsistensi data >5.000 SKU antara sistem internal dan marketplace secara otomatis.',
+          desc: '•	Merancang tools otomasi berbasis Python untuk memonitor lebih dari 5.000 SKU, yang secara signifikan memangkas waktu kerja dalam mendeteksi selisih stok, harga, dan inkonsistensi data antara sistem internal dan marketplace. ',
           liveLink: 'https://audit-irfan.streamlit.app/',
           liveLabel: 'Demo Tools',
         },
