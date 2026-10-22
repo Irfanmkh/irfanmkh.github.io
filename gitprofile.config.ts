@@ -225,7 +225,7 @@ const CONFIG = {
         {
           tag: 'Phase 2: Expansion',
           title: 'Scaling to Marketplaces',
-          desc: 'Ekspansi tanggung jawab ke platform marketplace. Tantangan muncul ketika data belum terintegrasi otomatis, menuntut pengecekan manual terhadap stok dan harga di ribuan SKU yang ada.',
+          desc: 'Ekspansi tanggung jawab ke platform marketplace. Tantangan muncul ketika data belum terintegrasi otomatis, menuntut pengecekan manual terhadap stok dan harga di ribuan SKU yang ada. Selain itu berkoordinasi aktif dengan Relationship Manager (RM) tiap platform untuk mengoptimalkan campaign, menyelesaikan kendala operasional, dan menjaga performa toko.',
         },
         {
           tag: 'Phase 3: Automation',
