@@ -230,14 +230,14 @@ const CONFIG = {
         {
           tag: 'Phase 3: Automation',
           title: 'Building the Solution',
-          desc: 'Merancang tools otomasi berbasis Python untuk memonitor lebih dari 5.000 SKU, yang secara signifikan memangkas waktu kerja dalam mendeteksi selisih stok, harga, dan inkonsistensi data antara sistem internal dan marketplace. ',
+          desc: 'Mengembangkan solusi pengolahan data bertahap, berawal dari penggunaan rumus VLOOKUP hingga membangun script Python dan automasi VBA Macro. Berhasil mengotomatisasi penyelarasan stok, harga, diskon, hingga penanganan SKU couple yang tidak tercatat di sistem internal, guna memastikan akurasi data di lebih dari 5.000 SKU serta mencegah selisih harga/diskon antar-platform. ',
           liveLink: 'https://audit-irfan.streamlit.app/',
           liveLabel: 'Demo Tools',
         },
         {
           tag: 'Phase 4: Full Scope',
           title: 'Full Ownership Today',
-          desc: 'Saat ini bertanggung jawab penuh atas operasional website (Shopify) dan marketplace utama (Shopee & Lazada), mengelola konfigurasi promo campaign, serta menjaga kelancaran alur fulfillment.',
+          desc: 'Saat ini bertanggung jawab penuh atas operasional website (Shopify) dan marketplace utama (Shopee & Lazada), mengelola katalog produk, konfigurasi promo campaign, serta menjaga kelancaran alur fulfillment.',
         },
       ],
       skills: [
