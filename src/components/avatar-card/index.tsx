@@ -69,11 +69,41 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               </span>
             )}
           </h5>
-          <div className="mt-3 text-base-content font-mono">
-            {loading || !profile
-              ? skeleton({ widthCls: 'w-48', heightCls: 'h-5' })
-              : profile.bio}
-          </div>
+          <div className="mt-4 text-justify text-sm text-base-content opacity-80 leading-relaxed space-y-3">
+ <p>
+  Saya adalah seorang Software Developer dan pengelola e-commerce dengan latar belakang S1 Sistem
+  Informasi dan pengalaman hampir 3 tahun di bidang operasional bisnis digital.
+  Saya memiliki ketertarikan pada pengembangan aplikasi web, otomasi data,
+  serta pemanfaatan teknologi untuk mengubah proses operasional yang lambat dan rentan human error menjadi sistem
+  otomatis yang tentunya lebih efisien dan akurat.
+</p>
+<p>
+  Berbekal pengalaman menangani berbagai kebutuhan operasional e-commerce ( Shopify, Shopee, dan Lazada) mulai dari pengelolaan stok dan
+  harga hingga sinkronisasi data ribuan produk,
+  saya terbiasa mencari cara untuk mengatasi pekerjaan manual yang memakan
+  waktu dan rentan terhadap kesalahan. Saya berupaya menerjemahkan berbagai
+  permasalahan tersebut menjadi solusi berbasis teknologi yang lebih praktis,
+  efisien, dan akurat. Saya juga terus mengembangkan kemampuan teknis melalui
+  berbagai proyek dan eksplorasi teknologi baru, seperti melalui aplikasi otomasi audit data menggunakan Python
+  dan Excel VBA Macro.
+</p>
+
+<p>
+  Di bidang pengembangan software, saya telah membangun aplikasi web
+  menggunakan Laravel, PHP, Vue 3, dan MySQL, termasuk platform undangan
+  digital yang telah berjalan di server produksi serta CMS untuk institusi pendidikan.
+  Saya juga memiliki pengalaman dalam perancangan database, integrasi
+  payment gateway, troubleshooting, dan deployment menggunakan Docker.
+</p>
+
+<p>
+  Kombinasi pengalaman teknis dan pemahaman terhadap proses bisnis membantu
+  saya melihat sebuah permasalahan tidak hanya dari sisi kode, tetapi juga
+  dari kebutuhan penggunanya. Saya senang membangun solusi yang praktis,
+  mudah digunakan, dan dapat memberikan dampak nyata terhadap cara kerja
+  sebuah sistem.
+</p>
+</div>
         </div>
         {resumeFileUrl &&
           (loading ? (

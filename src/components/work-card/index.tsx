@@ -243,9 +243,9 @@ const WorkExperienceCard = ({
                     : 'Pengalaman Kerja'}
                 </h3>
                 <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
-                  {loading
+                  {/* {loading
                     ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                    : 'Riwayat Karir Profesional'}
+                    : 'Riwayat Karir Profesional'} */}
                 </div>
               </div>
             </div>

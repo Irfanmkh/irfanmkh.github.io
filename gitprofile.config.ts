@@ -105,7 +105,8 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio of Irfan Maulana Khakiki',
-    description: 'Shopify & Marketplace Operations | Data Automation | Web Developer',
+    description:
+      'Shopify & Marketplace Operations | Data Automation | Web Developer',
     imageURL: '',
   },
   social: {

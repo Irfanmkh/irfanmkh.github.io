@@ -203,7 +203,7 @@ const ExternalProjectCard = ({
                   className="btn btn-primary btn-sm w-full gap-2 font-semibold shadow-sm hover:shadow group/btn"
                 >
                   <span>Kunjungi Website</span>
-                  <MdOutlineArrowOutward className="text-base group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
+                  {/* <MdOutlineArrowOutward className="text-base group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" /> */}
                 </a>
               )}
             </div>
@@ -241,7 +241,7 @@ const ExternalProjectCard = ({
                   <div className="text-base-content/60 text-xs sm:text-sm mt-0.5 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Menampilkan ${externalProjects.length} proyek pilihan`}
+                      : ` ${externalProjects.length} proyek pilihan`}
                   </div>
                 </div>
               </div>
